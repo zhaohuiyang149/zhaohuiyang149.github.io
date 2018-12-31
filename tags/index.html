@@ -5,13 +5,22 @@
   
 
 
-<html class="theme-next muse use-motion" lang="">
+<html class="theme-next mist use-motion" lang="">
 <head><meta name="generator" content="Hexo 3.8.0">
   <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="theme-color" content="#222">
-
+<script>
+    (function(){
+        if(''){
+            if (prompt('请输入文章密码') !== ''){
+                alert('密码错误');
+                history.back();
+            }
+        }
+    })();
+</script>
 
 
   
@@ -118,7 +127,7 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Muse',
+    scheme: 'Mist',
     sidebar: {"position":"left","display":"post","offset":12,"offset_float":12,"b2t":false,"scrollpercent":true,"onmobile":false},
     fancybox: true,
     tabs: true,
@@ -186,7 +195,7 @@
       </a>
     </div>
       
-        <p class="site-subtitle">愿你做一只快乐而努力的程序猿～～～</p>
+        <p class="site-subtitle">愿你快乐的努力着～～～</p>
       
   </div>
 
@@ -320,7 +329,7 @@
                 2 tags in total
             </div>
             <div class="tag-cloud-tags">
-              <a href="/tags/diary/" style="font-size: 30px; color: #111">diary</a> <a href="/tags/learning/" style="font-size: 12px; color: #ccc">learning</a>
+              <a href="/tags/diary/" style="font-size: 12px; color: #ccc">diary</a> <a href="/tags/technology/" style="font-size: 12px; color: #ccc">technology</a>
             </div>
           </div>
         
@@ -381,7 +390,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">3</span>
+                <span class="site-state-item-count">2</span>
                 <span class="site-state-item-name">posts</span>
               </a>
             </div>
@@ -500,13 +509,13 @@
 <div class="theme-info">
   Theme -
   <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Muse
+    NexT.Mist
   </a>
 </div>
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-cuont">博客全站共432字</span>
+  <span class="post-cuont">博客全站共1.3k字</span>
 </div>
 
 
@@ -979,5 +988,7 @@
 
   
 
+  <!-- 页面点击小红心 -->
+  <script type="text/javascript" src="/js/src/clicklove.js"></script>
 <script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","model":{"jsonPath":"/live2dw/assets/chitose.model.json"},"display":{"position":"left","hOffset":0,"vOffset":0,"width":100,"height":250},"mobile":{"show":false},"log":false,"tagMode":false});</script></body>
 </html>
