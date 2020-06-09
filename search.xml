@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[charles 功能介绍、使用教程]]></title>
-    <url>%2F2020%2F06%2F07%2Fcharles%2F</url>
-    <content type="text"><![CDATA[作为 PC 端常用的抓包工具之一，有着很多主要的功能～～ 简介charles 是在 PC 端常用的网络封包截取工具，在做移动开发时，为了调试与服务端的网络通讯协议，常常需要截取网络封包来分析。除了在做移动开发中调试端口外，charles也可以用于分析第三方应用的通讯协议。配合 charles 的 SSL 功能， charles 还可以分析 Https 协议。 菜单介绍使用教程]]></content>
+    <title><![CDATA[charles mac版安装、设置]]></title>
+    <url>%2F2020%2F06%2F09%2Fcharles%2F</url>
+    <content type="text"><![CDATA[mac安装包：链接: https://pan.baidu.com/s/1yz-yAPsWto_vhvCh717tUA 提取码: mq43 安装破解 双击charles-proxy-4.1.4.dmg文件，在打开的窗口中将charles直接拖动到Applications中 打开Finder &gt; Applications &gt; Charles &gt; (右键)Show Package Contents 将下载的charles-v4.1.4.jar更名为charles.jar, 并将其复制到/Contents/Java/目录下，替换原来的charles.jar文件 启动charles如果发现应用程序损坏的警告，需打开系统设置-&gt;安全与隐私，设置MAC安装的应用允许任何来源，然后就可以打开charles了。 安装证书并授信 在charles菜单栏，点击Help -&gt; SSL Proxying -&gt; Install Charles Root Certificate注意，这里下载好了，可以双击安装，但是默认这个证书是不可信的，你需要在钥匙串访问中，双击这个证书，然后展开信任一栏，选择在使用时，始终信任即可。 代理设置 菜单栏点击Proxy -&gt; proxy Setting，Proxies 选项卡下 HTTP Proxy里的port 填写8888，勾选Enable transparent HTTP proxying macOS 选项卡下勾选 Enable macOS proxy、Use HTTP proxy、Enable macOS proxy on launch 三个选项 菜单栏点击Proxy -&gt; SSL Proxying Settings，SSL Proxying选项卡下勾选Enable SSL Proxing 并点击add 设置需要代理的域名和端口 手机设置 手机和电脑连接同一个wifi，在手机Wi-Fi上设置手动代理，代理地址为mac的本地ip地址，端口为8888 如果要访问https的话，则要打开charles-&gt;help-&gt;SSL Proxying-&gt;Install Charles Root Certificate on a Mobile Device or Remote Browser 手机端打开safari，访问chls.pro/ssl，即会跳转下载并安装描述性文件，安装完成后到 【通用】-&gt;【关于本机】-&gt; 【证书信任设置】，启用完全信任刚才安装的证书 当有设备访问Charles代理的时候，会有弹框提示，点击允许就可以了。这样就设置好Charles代理了]]></content>
       <tags>
         <tag>tool</tag>
       </tags>

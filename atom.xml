@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-06-07T14:53:01.199Z</updated>
+  <updated>2020-06-09T14:03:28.484Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,13 +17,13 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>charles 功能介绍、使用教程</title>
-    <link href="http://yoursite.com/2020/06/07/charles/"/>
-    <id>http://yoursite.com/2020/06/07/charles/</id>
-    <published>2020-06-07T03:28:00.000Z</published>
-    <updated>2020-06-07T14:53:01.199Z</updated>
+    <title>charles mac版安装、设置</title>
+    <link href="http://yoursite.com/2020/06/09/charles/"/>
+    <id>http://yoursite.com/2020/06/09/charles/</id>
+    <published>2020-06-09T13:28:00.000Z</published>
+    <updated>2020-06-09T14:03:28.484Z</updated>
     
-    <content type="html"><![CDATA[<p>作为 PC 端常用的抓包工具之一，有着很多主要的功能～～</p><hr><h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>charles 是在 PC 端常用的网络封包截取工具，在做移动开发时，为了调试与服务端的网络通讯协议，常常需要截取网络封包来分析。除了在做移动开发中调试端口外，charles也可以用于分析第三方应用的通讯协议。配合 charles 的 SSL 功能， charles 还可以分析 Https 协议。</p><h2 id="菜单介绍"><a href="#菜单介绍" class="headerlink" title="菜单介绍"></a>菜单介绍</h2><h2 id="使用教程"><a href="#使用教程" class="headerlink" title="使用教程"></a>使用教程</h2>]]></content>
+    <content type="html"><![CDATA[<p>mac安装包：链接: <a href="https://pan.baidu.com/s/1yz-yAPsWto_vhvCh717tUA" target="_blank" rel="noopener">https://pan.baidu.com/s/1yz-yAPsWto_vhvCh717tUA</a>   提取码: mq43</p><hr><h2 id="安装破解"><a href="#安装破解" class="headerlink" title="安装破解"></a>安装破解</h2><ul><li>双击charles-proxy-4.1.4.dmg文件，在打开的窗口中将charles直接拖动到Applications中</li><li>打开Finder &gt; Applications &gt; Charles &gt; (右键)Show Package Contents</li><li>将下载的charles-v4.1.4.jar更名为charles.jar, 并将其复制到/Contents/Java/目录下，替换原来的charles.jar文件</li><li>启动charles如果发现应用程序损坏的警告，需打开系统设置-&gt;安全与隐私，设置MAC安装的应用允许任何来源，然后就可以打开charles了。</li></ul><h2 id="安装证书并授信"><a href="#安装证书并授信" class="headerlink" title="安装证书并授信"></a>安装证书并授信</h2><ul><li>在charles菜单栏，点击Help -&gt; SSL Proxying -&gt; Install Charles Root Certificate<br><strong>注意，这里下载好了，可以双击安装，但是默认这个证书是不可信的，你需要在钥匙串访问中，双击这个证书，然后展开信任一栏，选择在使用时，始终信任即可。</strong></li></ul><h2 id="代理设置"><a href="#代理设置" class="headerlink" title="代理设置"></a>代理设置</h2><ul><li>菜单栏点击Proxy -&gt; proxy Setting，Proxies 选项卡下 HTTP Proxy里的port 填写8888，勾选Enable transparent HTTP proxying<br><img src="https://i.loli.net/2020/06/09/gkshaVQWu8RpDYL.jpg" alt="proxy Settings" title="proxy Settings"></li><li>macOS 选项卡下勾选 Enable macOS proxy、Use HTTP proxy、Enable macOS proxy on launch 三个选项<br><img src="https://i.loli.net/2020/06/09/WOImwhabvTo4lPS.jpg" alt="proxy Settings" title="proxy Settings"></li><li>菜单栏点击Proxy -&gt; SSL Proxying Settings，SSL Proxying选项卡下勾选Enable SSL Proxing 并点击add 设置需要代理的域名和端口<br><img src="https://i.loli.net/2020/06/09/Nyp3Yzdu5fCJLQb.jpg" alt="SSL proxying Settings" title="SSL proxying Settings"></li></ul><h2 id="手机设置"><a href="#手机设置" class="headerlink" title="手机设置"></a>手机设置</h2><ul><li>手机和电脑连接同一个wifi，在手机Wi-Fi上设置手动代理，代理地址为mac的本地ip地址，端口为8888</li><li>如果要访问https的话，则要打开charles-&gt;help-&gt;SSL Proxying-&gt;Install Charles Root Certificate on a Mobile Device or Remote Browser<br><img src="https://i.loli.net/2020/06/09/3cQZUsk7vIYW1lV.jpg" alt="charles" title="charles"></li><li>手机端打开safari，访问chls.pro/ssl，即会跳转下载并安装描述性文件，安装完成后到 【通用】-&gt;【关于本机】-&gt; 【证书信任设置】，启用完全信任刚才安装的证书</li><li>当有设备访问Charles代理的时候，会有弹框提示，点击允许就可以了。这样就设置好Charles代理了</li></ul>]]></content>
     
     <summary type="html">
     
